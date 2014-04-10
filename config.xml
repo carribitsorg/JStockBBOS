@@ -26,12 +26,12 @@
         xmlns:rim="http://www.blackberry.com/ns/widgets"
 	version="1.0.0.0">
 
-  <name>example</name>
+  <name>JStock</name>
 
-  <author>Your Name Here</author>
+  <author>Rivalbits</author>
 
   <description>
-       A sample Apache Cordova application that responds to the deviceready event.
+       JStock is a free application developed for the Jamaican stock market.
   </description>
 
   <license href="http://opensource.org/licenses/alphabetical">
@@ -85,12 +85,8 @@
   <content src="index.html" />
 
   <rim:permissions>
-    <rim:permit>use_camera</rim:permit>
     <rim:permit>read_device_identifying_information</rim:permit>
     <rim:permit>access_shared</rim:permit>
-    <rim:permit>read_geolocation</rim:permit>
-    <rim:permit>record_audio</rim:permit>
-    <rim:permit>access_pimdomain_contacts</rim:permit>
   </rim:permissions>
 
 </widget>

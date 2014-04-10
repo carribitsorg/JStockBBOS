@@ -10,7 +10,9 @@ define(["jquery", "backbone"], function($, Backbone) {
                 image = 'mov_down';
             } else if (value.indexOf("mov_up") !== -1) {
                 image = 'mov_up';
-            }
+            }else{
+				image = 'mov_none';
+			}
             return image;
         },
         getImageClass: function(value) {
@@ -19,7 +21,9 @@ define(["jquery", "backbone"], function($, Backbone) {
                 ImgClass = 'value-dir-down';
             } else if (value.indexOf("mov_up") !== -1) {
                 ImgClass = 'value-dir-up';
-            }
+            }else{
+				image = 'mov_none';
+			}
             return ImgClass;
         }
     });
